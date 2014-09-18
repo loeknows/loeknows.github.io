@@ -18,7 +18,13 @@ h1  {
 	
 }
 
+#developer {
 
+}
+
+.player {
+	vertical-align: center; 
+}
 
 @font-face {
 	font-family: 'Neurotica';
