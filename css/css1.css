@@ -3,7 +3,8 @@ html {
 }
 
 body {
-	background: url('Related/backgroundfinal.jpg');
+	background-image: url('Related/backgroundfinal.jpg');
+
 	background-size:cover;
 	text-align: center;
 	width: 100%;
