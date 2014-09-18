@@ -23,7 +23,10 @@ h1  {
 }
 
 .player {
-	vertical-align: center; 
+	position: absolute;
+	top: 799px;
+	left: 220px;
+	width: 645px;
 }
 
 @font-face {
