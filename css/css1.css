@@ -20,14 +20,12 @@ h1  {
 
 #developer {
 
+color: blue;
+
 }
 
 .player {
-	position: absolute;
-	top: 799px;
-	left: 220px;
-	width: 645px;
-}
+	text-align: center;
 
 @font-face {
 	font-family: 'Neurotica';
