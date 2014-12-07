@@ -7,8 +7,18 @@ body {
 	background-size:cover;
 	text-align: center;
 	width: 100%;
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.left{
+    position: absolute;
+    left: 0px;
+    width: 300px;
+    background-color: #b0e0e6;
+}
 
-img {vertical-align:top}
+
 }
 
 h1  {
