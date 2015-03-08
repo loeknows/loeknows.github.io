@@ -14,7 +14,8 @@ body {
 .left{
     position: absolute;
     left: 0px;
- 
+
+  overflow: hidden;
 
 
 }
