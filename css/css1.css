@@ -15,8 +15,11 @@ body {
     position: absolute;
     left: 0px;
 
-  overflow: hidden;
-
+ <style type="text/css">
+body {
+    overflow-x:hidden;
+}
+</style>
 
 }
 
