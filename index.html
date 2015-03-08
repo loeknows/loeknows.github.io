@@ -101,7 +101,32 @@ body{
    <!--  <div align="center">
     <iframe width="400" height="350" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/54846502&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
     </div> -->
-  
+  <script>
+    (function() {
+        var script = document.createElement("script");
+
+        script.type = "text/javascript";
+        script.async = true;
+        script.src = "//sd.toneden.io/production/toneden.loader.js"
+
+        var entry = document.getElementsByTagName("script")[0];
+        entry.parentNode.insertBefore(script, entry);
+    }());
+
+    ToneDenReady = window.ToneDenReady || [];
+    ToneDenReady.push(function() {
+        // This is where all the action happens:
+        ToneDen.player.create({
+            dom: "#player",
+            eq: "waves",
+            skin: "light",
+            tracksPerArtist: 4,
+            urls: [
+                "https://soundcloud.com/mutantbreakz/blacklist-vs-alt-a-fire"
+            ]
+        });
+    });
+</script>
 
 
   <div class="right">
