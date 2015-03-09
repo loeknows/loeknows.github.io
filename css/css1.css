@@ -3,10 +3,35 @@ html {
 }
 
 body {
+<<<<<<< HEAD
 	background: url('http://www.hobby-island.co.uk/image/data/design/website_temporarily-closed.jpg');
+=======
+	background: url('http://i.imgur.com/wr9b7j1.jpg');
+>>>>>>> origin/master
 	background-size:cover;
 	text-align: center;
-	width: 100%;
+	max-width:100%;
+	max-height:100%;
+.wraptocenter {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    background-color:#999;
+}
+.wraptocenter * {
+    vertical-align: middle;
+}
+/*\*//*/
+.wraptocenter {
+    display: block;
+}
+.wraptocenter span {
+    display: inline-block;
+    height: 100%;
+    width: 1px;
+}
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,10 +39,12 @@ body {
 .left{
     position: absolute;
     left: 0px;
-    
 
+ <style type="text/css">
+body {
+    overflow-x:hidden;
 }
-
+</style>
 
 }
 
